@@ -1,0 +1,16 @@
+
+# Environment
+.env
+.env.*.local
+
+node_modules/
+
+# Build output
+/dist
+/coverage
+
+# Prisma generated client (di-generate ulang lewat `prisma generate`)
+/generated
+
+# Uploaded files (resumes)
+/storage
